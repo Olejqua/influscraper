@@ -1,0 +1,11 @@
+{
+  "name": "Influscraper Dev",
+  "dockerComposeFile": "../docker/docker-compose.yml",
+  "service": "scraper",
+  "workspaceFolder": "/app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["oven.bun-vscode", "esbenp.prettier-vscode", "dbaeumer.vscode-eslint"],
+  "postCreateCommand": "bun install"
+}

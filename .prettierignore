@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+
+# Test results
+playwright-report/
+test-results/
+
+# Docker
+docker/data/
+docker/logs/
+
+# Git
+.git/
+
+# Environment files
+.env*
+
+# Generated files
+*.min.js
+*.min.css
+
+# Binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.pdf
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Temporary
+tmp/
+temp/ 
